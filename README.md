@@ -3,6 +3,12 @@
 $ npm install -g electron
 $ electron -v
 v1.7.9
+
+$ git clone git@github.com:dongri/play.git
+$ cd play/electron
+$ vim index.html
+ src="http://localhost:5000/macos"
+
 $ electron .
 ```
 
